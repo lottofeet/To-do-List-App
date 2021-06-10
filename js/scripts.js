@@ -8,6 +8,8 @@ function newItem() {
   } else {
     // create new to do item
     $('#list').append(li);
+    $('#input').children('input').val('');
+
     }
 
 
